@@ -16,6 +16,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822"
 
 [[package]]
+name = "daily_programmer"
+version = "0.1.0"
+dependencies = [
+ "quickcheck",
+ "quickcheck_macros",
+]
+
+[[package]]
 name = "env_logger"
 version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -62,14 +70,6 @@ name = "memchr"
 version = "2.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3728d817d99e5ac407411fa471ff9800a778d88a24685968b36824eaf4bee400"
-
-[[package]]
-name = "necklace_matching"
-version = "0.1.0"
-dependencies = [
- "quickcheck",
- "quickcheck_macros",
-]
 
 [[package]]
 name = "ppv-lite86"
